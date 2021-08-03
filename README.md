@@ -4,7 +4,6 @@ Use historical data on customer orders over time to predict which previously pur
 
 ---
 ## Problem Statement
-
 Instacart is an American company that operates a grocery delivery and pick-up service in the United States and Canada. The company offers its services via a website and mobile App. The service allows customers to order groceries from participating retailers with the shopping being done by a personal shopper. It offers same-day delivery and pickup services for retailers and consumers [[1]](https://en.wikipedia.org/wiki/Instacart).
 
 As more and more grocery stores move online in recent years, Instacart would like to make effort to maintain customer retention rate. Customer retention is the best way to scale business at an affordable cost. High customer retention rates also increase profitability [[2]](https://www.lightspeedhq.com/blog/customer-retention-rate/). 
@@ -44,7 +43,6 @@ The performance gap between Random Forest & Logistic Regression is not that much
 
 ---
 ## Conclusion and Recommendations
-
 In conclusion, we believe that our model can predict product reorder in next purchase effectively, with f1 score as 0.368. The prediction result can help increase sales and improve customer retention rate for Instacart. We suggest Instacart to utilize of data science to understand customers' short term and long term preference. For example, through customer latest orders, we can understand customers' recent preference. We also can understand customers' long term preference through more historical order data. 
 
 As mentioned in previous section, customer retention rate is important to Instacart. 
@@ -53,3 +51,10 @@ With prediction results from our model, we can provide the following recommendat
 2. Send engaging emails to customers based on the prediction result for repeating purchase.
 
 ---
+## References
+1. https://en.wikipedia.org/wiki/Instacart
+2. https://www.lightspeedhq.com/blog/customer-retention-rate/
+3. https://stats.stackexchange.com/questions/329102/comparing-f1-score-across-imbalanced-data-sets
+4. https://machinelearningmastery.com/xgboost-for-imbalanced-classification/
+5. https://machinelearningmastery.com/threshold-moving-for-imbalanced-classification/
+6. https://stats.stackexchange.com/questions/390200/what-is-the-baseline-of-the-f1-score-for-a-binary-classifier
