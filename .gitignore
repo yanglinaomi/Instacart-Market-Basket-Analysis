@@ -3,4 +3,3 @@
 backup
 /data/orders.csv
 /data/order_products__prior.csv
-/data/output/orders_reduced_user100_prod100000.csv
